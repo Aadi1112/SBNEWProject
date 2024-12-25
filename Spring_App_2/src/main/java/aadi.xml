@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="eng" class="com.aadi.DisealEngine" 
+	primary="true"></bean>
+
+	<bean id="eng1" class="com.aadi.PetrolEngine"
+	></bean>
+
+	<bean id="car" class="com.aadi.Car" autowire="constructor" scope="singleton">
+	
+	
+	</bean>
+
+
+
+</beans>

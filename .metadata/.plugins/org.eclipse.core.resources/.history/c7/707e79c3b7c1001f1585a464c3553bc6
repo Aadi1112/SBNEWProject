@@ -1,0 +1,12 @@
+package com.lambda;
+
+public class Test implements Demo {
+
+	@Override
+	public void add() {
+		
+		System.out.println("add method body");
+		
+	}
+
+}

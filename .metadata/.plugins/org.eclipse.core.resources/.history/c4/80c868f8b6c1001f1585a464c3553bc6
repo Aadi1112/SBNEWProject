@@ -1,0 +1,8 @@
+package com.lambda;
+
+public interface Demo {
+
+	public abstract void add();
+	 
+	 void fun();
+}

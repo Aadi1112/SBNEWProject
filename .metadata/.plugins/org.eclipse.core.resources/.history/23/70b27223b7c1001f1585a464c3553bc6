@@ -1,0 +1,11 @@
+package com.lambda;
+
+@FunctionalInterface
+public interface Demo {
+
+	public abstract void add();
+	
+	
+	 
+	 
+}

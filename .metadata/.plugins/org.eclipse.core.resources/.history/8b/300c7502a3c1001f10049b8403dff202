@@ -1,0 +1,5 @@
+package com.aadi.service;
+
+public class UserService {
+
+}

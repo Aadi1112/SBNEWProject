@@ -1,0 +1,22 @@
+package com.lambda;
+
+public class Abc {
+
+	public static void main(String[] args) {
+
+//		Demo d = (a,b) -> {
+//
+//			System.out.println("add nethod :"+ (a+b));
+//		};
+//
+//		d.fun(10,20);
+		
+		
+		Demo d=(a,b)->{ 
+			
+			return a+b;
+		};
+		
+		System.out.println(d.add());
+	}
+}

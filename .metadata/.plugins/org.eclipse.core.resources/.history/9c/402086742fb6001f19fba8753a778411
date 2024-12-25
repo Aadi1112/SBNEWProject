@@ -1,0 +1,13 @@
+package com.codeit;
+
+import java.io.IOException;
+import java.sql.SQLException;
+
+public class CollegeStudent extends Student {
+
+	@Override
+	void study() throws SQLException  {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.lambda;
+
+public class Abc {
+
+	Demo d=()->{
+		 
+		 
+		System.out.println("add nethod");
+	 };
+}

@@ -1,0 +1,11 @@
+package com.lambda;
+
+public class Test implements Demo {
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

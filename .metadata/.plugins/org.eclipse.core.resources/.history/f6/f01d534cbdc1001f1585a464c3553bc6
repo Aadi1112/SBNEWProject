@@ -1,0 +1,32 @@
+package com.streamAPI;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+//		List<Integer> list=new ArrayList<Integer>();
+//		list.add(10);
+//		list.add(20);
+//		list.add(30);
+		
+		List<Integer> list = Arrays.asList(10,20,30,34,645,23,54,523);
+		for (int i = 0; i < list.size(); i++) {
+			
+			if(list.get(i)%2==0) {
+				
+				System.out.println("Even");
+			}
+			else
+			{
+				System.out.println("Odd");
+			}
+		}
+		
+		
+		
+	}
+}

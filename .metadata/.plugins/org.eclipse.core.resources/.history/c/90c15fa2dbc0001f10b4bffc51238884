@@ -1,0 +1,46 @@
+package com.aadi.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+	
+	@GetMapping("/hii")
+	public String hello(Model model) {
+		
+		model.addAttribute("msg", "Hello Everyone"); 
+		
+		return "hello";
+	}
+	
+	
+	@GetMapping("/greet")
+	public String greet(Model model) {
+		
+		String msg="Good Morning"; 
+		
+		return msg;
+	}
+	
+	
+	@GetMapping("/m1")
+	public String xyz(Model model) {
+		
+		String msg="Good Morning"; 
+		
+		return msg;
+	}
+	
+	@GetMapping("/m2")
+	public String abc(Model model) {
+		
+		String msg="Good Morning"; 
+		
+		return msg;
+	}
+}

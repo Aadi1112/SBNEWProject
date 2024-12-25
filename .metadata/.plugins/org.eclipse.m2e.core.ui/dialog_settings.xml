@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\kagad\OneDrive\Desktop\Spring And Spring Boot NOV\Spring_App_5"/>
+			<item value="C:\Users\kagad\OneDrive\Desktop\Spring And Spring Boot NOV\Spring_App_4"/>
+			<item value="C:\Users\kagad\OneDrive\Desktop\Spring And Spring Boot NOV\Spring_App_3"/>
+			<item value="C:\Users\kagad\OneDrive\Desktop\Spring And Spring Boot NOV\Spring_App_2"/>
+			<item value="C:\Users\kagad\OneDrive\Desktop\Spring And Spring Boot NOV\Spring_Core_1"/>
+			<item value="C:\Users\kagad\OneDrive\Desktop\Spring And Spring Boot NOV\JSTL"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Spring_App_6"/>
+			<item value="Spring_App_5"/>
+			<item value="Spring_App_4"/>
+			<item value="Spring_App_3"/>
+			<item value="Spring_App_1"/>
+			<item value="Spring_Core_3"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Spring_App_6"/>
+			<item value="Spring_App_5"/>
+			<item value="Spring_App_4"/>
+			<item value="Spring_App_3"/>
+			<item value="Spring_App_1"/>
+			<item value="Spring_Core_3"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\kagad\OneDrive\Desktop\Tomcat\Spring_Boot_Web_MVC_2\Spring_Boot_Web_MVC_2"/>
+			<item value="C:\Users\kagad\OneDrive\Desktop\BootStrap\SBApp_2\SBApp_2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

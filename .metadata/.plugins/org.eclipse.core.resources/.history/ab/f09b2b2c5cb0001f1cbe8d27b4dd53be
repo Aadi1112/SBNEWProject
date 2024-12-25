@@ -1,0 +1,53 @@
+package com.aadi;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.aadi.entity.Book;
+import com.aadi.repo.Bookrepository;
+
+@SpringBootApplication
+public class SpringDataJpa1Application implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext cc = SpringApplication.run(SpringDataJpa1Application.class, args);
+
+//	     Bookrepository bookrepository= cc.getBean(Bookrepository.class);
+//	
+//	     System.out.println(bookrepository.getClass().getName());
+	}
+
+	@Autowired
+	Bookrepository bookrepository;
+
+	// implmemented class ka object banega
+	// proxy implemented classes created by spring boot internally..
+
+	@Override
+	public void run(String... args) throws Exception {
+
+//		Book book1=new Book(103, "NodeJS", 8000.00);
+//		Book book2=new Book(104, "Javascript", 3000.00);
+//		Book book3=new Book(105, "React", 7000.00);
+//		
+//		ArrayList<Book> books=new ArrayList<Book>();
+//		books.add(book1);
+//		books.add(book2);
+//		books.add(book3);
+
+		// bookrepository.save(book1);
+		// bookrepository.saveAll(Arrays.asList(book1,book2,book3));
+
+		boolean b = bookrepository.existsById(100);
+
+		System.out.println(b);
+
+	}
+
+}

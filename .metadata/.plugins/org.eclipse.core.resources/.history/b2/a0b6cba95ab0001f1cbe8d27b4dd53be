@@ -1,0 +1,38 @@
+package com.aadi;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+import com.aadi.repo.Bookrepository;
+
+@SpringBootApplication
+public class SpringDataJpa1Application implements CommandLineRunner{
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext cc=
+				SpringApplication.run(SpringDataJpa1Application.class, args);
+	
+	     Bookrepository bookrepository= cc.getBean(Bookrepository.class);
+	
+	     System.out.println(bookrepository.getClass().getName());
+	}
+	
+	@Autowired
+	Bookrepository bookrepository;
+	
+	//implmemented class ka object banega
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		
+		
+	}
+	
+	
+	
+
+}

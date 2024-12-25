@@ -1,0 +1,19 @@
+package com.lambda;
+
+@FunctionalInterface
+public interface Demo {
+
+	//SAM -> single abstract method
+	public abstract void fun(int a,int b);
+	
+	
+	
+	
+	static void m2() {
+		
+	}
+	
+	
+	 
+	 
+}
